@@ -1,12 +1,9 @@
-/*h1 {
-    text-align: center;
-    letter-spacing: 10px;
-    font-size: 50px;
-    color: snow;
-    font-family: 'old_london_alternateregular';
-}*/
+html {
+    overflow: hidden;
+}
 
 body {
+    position: fixed;
     background-image: url("try2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,10 +11,8 @@ body {
     overflow-y: scroll;
     height: 100%;
     width: 100%;
-    position: fixed;
     display: block;
     top: 0;
-    bottom: 0;
     overflow-x: hidden;
 }
 
@@ -29,38 +24,9 @@ body {
     height: auto;
     width: 100%;
     flex-shrink: 0;
-    position: relative;
     overflow-y: scroll;
+    position: relative;
 }
-
-/*.p1 {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
-    /*border-top: black;
-    border-top-style: inset;
-    border-top-width: 1px;
-    border-radius: 10px;*/
-    /*padding: 5px 5px 5px 5px;*/
-    /*padding-top: 10%;
-    padding-left: 10%;
-    color: #F9E2DF;*/
-    /*border-left: 6px solid red;
-    background-color: rgb(242, 37, 9);
-}*/
-
-/*.p2 {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 1%;
-    /*border-bottom: black;
-    border-bottom-style: inset;
-    border-bottom-width: 1px;
-    border-radius: 10px;
-    padding: 5px 5px 5px 5px;*/
-    /*color: chartreuse;*/
-    /*border-left: 6px solid red;
-}*/
 
 .header {
     display: flex;
