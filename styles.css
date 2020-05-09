@@ -1,0 +1,27 @@
+h1 {
+    color: slateblue;
+}
+
+p {
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    line-height: 40px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: greenyellow 4px solid;
+}
+
+body {
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
