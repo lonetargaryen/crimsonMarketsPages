@@ -1,14 +1,3 @@
-@font-face {
-    font-family: 'old_londonregular';
-    src: url('oldlondon-webfont.woff2') format('woff2'),
-         url('oldlondon-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
 
 @font-face {
     font-family: 'old_london_alternateregular';
@@ -22,27 +11,6 @@
 
 
 @font-face {
-    font-family: 'old_londonregular';
-    src: url('/olondon_-webfont.woff2') format('woff2'),
-         url('/olondon_-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'old_london_alternateregular';
-    src: url('/olondona-webfont.woff2') format('woff2'),
-         url('/olondona-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
     font-family: 'georgecafe';
-    src: url('Louis\ George\ Cafe\ Light.ttf'); format('ttf')
+    src: url('Louis\ George\ Cafe\ Light.ttf'); format('ttf');
 }

@@ -1,10 +1,4 @@
-/*h1 {
-    text-align: center;
-    letter-spacing: 10px;
-    font-size: 50px;
-    color: snow;
-    font-family: 'old_london_alternateregular';
-}*/
+
 
 body {
     background-image: url("try2.jpg");
@@ -31,37 +25,7 @@ body {
     width: 100%;
     flex-shrink: 0;
     position: relative;
-    overflow-y: scroll;
 }
-
-/*.p1 {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
-    /*border-top: black;
-    border-top-style: inset;
-    border-top-width: 1px;
-    border-radius: 10px;*/
-    /*padding: 5px 5px 5px 5px;*/
-    /*padding-top: 10%;
-    padding-left: 10%;
-    color: #F9E2DF;*/
-    /*border-left: 6px solid red;
-    background-color: rgb(242, 37, 9);
-}*/
-
-/*.p2 {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 1%;
-    /*border-bottom: black;
-    border-bottom-style: inset;
-    border-bottom-width: 1px;
-    border-radius: 10px;
-    padding: 5px 5px 5px 5px;*/
-    /*color: chartreuse;*/
-    /*border-left: 6px solid red;
-}*/
 
 .header {
     display: flex;
@@ -79,6 +43,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
     height: auto;
     width: 60%;
     padding-left: 10%;
@@ -129,5 +94,39 @@ html {
 
 .exitlink:visited {
     text-decoration: none;
+    color: #F9E2DF;
+}
+
+.spacer{
+height: 5vh;
+width: 100%;
+display: flex;
+}
+
+.headtitle{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.innercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+
+.mylink:link {
+    
+    color: #F9E2DF;
+}
+
+.mylink:visited {
+    
     color: #F9E2DF;
 }
